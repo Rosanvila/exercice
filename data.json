@@ -2,216 +2,232 @@
     {
         "nom": "Dupont",
         "prenom": "Emma",
-        "emails": [
+        "email": [
             "emma.dupont@example.com"
         ]
     },
     {
         "nom": "Martin",
         "prenom": "Lucas",
-        "emails": [
+        "email": [
             "lucas.martin@example.com"
         ]
     },
     {
         "nom": "Dubois",
         "prenom": "Léa",
-        "emails": [
+        "email": [
             "lea.dubois@example.com"
         ]
     },
     {
         "nom": "Bernard",
         "prenom": "Hugo",
-        "emails": [
+        "email": [
             "hugo.bernard@example.com"
         ]
     },
     {
         "nom": "Thomas",
         "prenom": "Jade",
-        "emails": [
+        "email": [
             "jade.thomas@example.com"
         ]
     },
     {
         "nom": "Robert",
         "prenom": "Gabriel",
-        "emails": [
+        "email": [
             "gabriel.robert@example.com"
         ]
     },
     {
         "nom": "Richard",
         "prenom": "Manon",
-        "emails": [
+        "email": [
             "manon.richard@example.com"
         ]
     },
     {
         "nom": "Petit",
         "prenom": "Raphaël",
-        "emails": [
+        "email": [
             "raphael.petit@example.com"
         ]
     },
     {
         "nom": "Durand",
         "prenom": "Clara",
-        "emails": [
+        "email": [
             "clara.durand@example.com"
         ]
     },
     {
         "nom": "Leroy",
         "prenom": "Alexandre",
-        "emails": [
+        "email": [
             "alexandre.leroy@example.com"
         ]
     },
     {
         "nom": "Garcia",
         "prenom": "Chloé",
-        "emails": [
+        "email": [
             "chloe.garcia@example.com"
         ]
     },
     {
         "nom": "Moreau",
         "prenom": "Noah",
-        "emails": [
+        "email": [
             "noah.moreau@example.com"
         ]
     },
     {
         "nom": "Lefebvre",
         "prenom": "Alice",
-        "emails": [
+        "email": [
             "alice.lefebvre@example.com"
         ]
     },
     {
         "nom": "Simon",
         "prenom": "Théo",
-        "emails": [
+        "email": [
             "theo.simon@example.com"
         ]
     },
     {
         "nom": "Laurent",
         "prenom": "Inès",
-        "emails": [
+        "email": [
             "ines.laurent@example.com"
         ]
     },
     {
         "nom": "Michel",
         "prenom": "Louis",
-        "emails": [
+        "email": [
             "louis.michel@example.com"
         ]
     },
     {
         "nom": "Girard",
         "prenom": "Léna",
-        "emails": [
+        "email": [
             "lena.girard@example.com"
         ]
     },
     {
         "nom": "Lopez",
         "prenom": "Romain",
-        "emails": [
+        "email": [
             "romain.lopez@example.com"
         ]
     },
     {
         "nom": "Faure",
         "prenom": "Manon",
-        "emails": [
+        "email": [
             "manon.faure@example.com"
         ]
     },
     {
         "nom": "Mercier",
         "prenom": "Gabriel",
-        "emails": [
+        "email": [
             "gabriel.mercier@example.com"
         ]
     },
     {
         "nom": "Roux",
         "prenom": "Lucie",
-        "emails": [
+        "email": [
             "lucie.roux@example.com"
         ]
     },
     {
         "nom": "Fournier",
         "prenom": "Arthur",
-        "emails": [
+        "email": [
             "arthur.fournier@example.com"
         ]
     },
     {
         "nom": "Chevalier",
         "prenom": "Léa",
-        "emails": [
+        "email": [
             "lea.chevalier@example.com"
         ]
     },
     {
         "nom": "Dumas",
         "prenom": "Enzo",
-        "emails": [
+        "email": [
             "enzo.dumas@example.com"
         ]
     },
     {
         "nom": "Garnier",
         "prenom": "Alice",
-        "emails": [
+        "email": [
             "alice.garnier@example.com"
         ]
     },
     {
         "nom": "Rodríguez",
         "prenom": "Carlos",
-        "email": "carlos.rodriguez@example.com"
+        "email": [
+            "carlos.rodriguez@example.com"
+        ]
     },
     {
         "nom": "García",
         "prenom": "Isabella",
-        "email": "isabella.garcia@example.com"
+        "email": [
+            "isabella.garcia@example.com"
+        ]
     },
     {
         "nom": "López",
         "prenom": "Diego",
-        "email": "diego.lopez@example.com"
+        "email": [
+            "diego.lopez@example.com"
+        ]
     },
     {
         "nom": "Hernández",
         "prenom": "Sofía",
-        "email": "sofia.hernandez@example.com"
+        "email": [
+            "sofia.hernandez@example.com"
+        ]
     },
     {
         "nom": "González",
         "prenom": "Alejandro",
-        "email": "alejandro.gonzalez@example.com"
+        "email": [
+            "alejandro.gonzalez@example.com"
+        ]
     },
     {
         "nom": "Martínez",
         "prenom": "Valentina",
-        "email": "valentina.martinez@example.com"
+        "email": [
+            "valentina.martinez@example.com"
+        ]
     },
     {
         "nom": "Ramírez",
         "prenom": "Mateo",
-        "email": "mateo.ramirez@example.com"
+        "email": [
+            "mateo.ramirez@example.com"
+        ]
     },
     {
         "nom": "Fernández",
         "prenom": "Camila",
-        "email": "camila.fernandez@example.com"
+        "email": [
+            "camila.fernandez@example.com"
+        ]
     }
 ]
