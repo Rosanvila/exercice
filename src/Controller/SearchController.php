@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Form\SearchFormType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
@@ -11,33 +12,31 @@ use Symfony\Component\Routing\Annotation\Route;
 class SearchController extends AbstractController
 {
     #[Route('/', name: 'app_search')]
-    public function index(): Response
+    public function index(Request $request): Response
     {
-        return $this->render('index.html.twig', [
-            'controller_name' => 'SearchController',
-        ]);
-    }
+        $form = $this->createForm(SearchFormType::class);
+        $form->handleRequest($request);
 
-    #[Route('/search', name: 'search', methods: ['GET'])]
-    public function search(Request $request): JsonResponse
-    {
-        $searchTerm = $request->query->get('searchTerm');
-
-        // Lecture du fichier data.json
-        $jsonData = file_get_contents('data.json');
-        $dataArray = json_decode($jsonData, true);
-
-        // Recherche dans les données
         $results = [];
-        foreach ($dataArray as $data) {
-            // Recherche par nom, prénom ou e-mail
-            if (str_contains(strtolower($data['nom']), strtolower($searchTerm)) ||
-                str_contains(strtolower($data['prenom']), strtolower($searchTerm)) ||
-                str_contains(strtolower($data['email'][0]), strtolower($searchTerm))) {
-                $results[] = $data;
+        if ($form->isSubmitted() && $form->isValid()) {
+            $searchTerm = $form->getData()['item'];
+
+            $jsonData = file_get_contents(__DIR__ . '/../../data.json');
+            $dataArray = json_decode($jsonData, true);
+
+            foreach ($dataArray as $data) {
+
+                if (str_contains(strtolower($data['nom']), strtolower($searchTerm)) ||
+                    str_contains(strtolower($data['prenom']), strtolower($searchTerm)) ||
+                    str_contains(strtolower($data['email'][0]), strtolower($searchTerm))) {
+                    $results[] = $data;
+                }
             }
         }
 
-        return new JsonResponse($results);
+        return $this->render('search/index.html.twig', [
+            'form' => $form->createView(),
+            'results' => $results
+        ]);
     }
 }
