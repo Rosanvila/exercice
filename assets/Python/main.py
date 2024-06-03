@@ -2,7 +2,7 @@ import csv
 import xml.etree.ElementTree as ET
 import json
 
-csv_file = 'liste1.csv'
+csv_file = 'assets/Python/liste1.csv'
 csv_data = []
 error_occurred = False
 
@@ -30,7 +30,7 @@ except csv.Error as e:
     error_occurred = True
 
 # Reading XML file
-xml_file = 'liste2.xml'
+xml_file = 'assets/Python/liste2.xml'
 xml_data = []
 
 try:
