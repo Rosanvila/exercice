@@ -13,7 +13,7 @@ Ce projet Symfony consiste en deux parties principales :
 Le projet est lancé à l'aide de Laragon et est déployé sur o2switch.
 
 ## Prérequis
-- PHP 7.4 ou supérieur
+- PHP 8.2
 - Composer
 - Python
 - Laragon (pour le développement local)
